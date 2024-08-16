@@ -2,9 +2,8 @@
 
 '''0x00. Pagination'''
 
-from typing import Tuple
+from typing import Tuple, List
 import csv
-from typing import List
 
 
 def index_range(page: int, page_size: int) -> Tuple[int]:
