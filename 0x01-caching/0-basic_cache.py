@@ -8,7 +8,7 @@ class BasicCache(BaseCaching):
     '''BasicCache that inherits from BaseCaching and is a caching system'''
     def __init__(self):
         '''BasicCache initialization'''
-        super.__init__()
+        super().__init__()
 
     def put(self, key, item):
         '''Add a new process to cache'''
